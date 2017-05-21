@@ -1,0 +1,7 @@
+public List<Integer> getConnectedNodes(int node) {
+        List<Integer> itemsList = this.edges.get(node);
+        if (itemsList == null) {
+            System.out.println("No directed edges to any node from this node");
+            return null;
+        } else return itemsList;
+    }
